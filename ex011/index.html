@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou aumento ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="fotop.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="fotom.png" type="image/png">    
+            <img src="fotog.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzie audios em HTML5</p>
+    <audio src="midia/Pan's Labyrinth - josh pan.mp3" controls autoplay></audio>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls
+    source src="midia/Pan's Labyrinth - josh pan.mp3" type "audio/mpeg"
+    ></audio>
+</body>
+</html>
